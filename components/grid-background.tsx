@@ -2,7 +2,7 @@
 
 export function GridBackground() {
   return (
-    <div className="pointer-events-none fixed inset-0 z-0" aria-hidden="true">
+    <div className="pointer-events-none absolute inset-0 z-0" aria-hidden="true">
       <svg className="h-full w-full" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <pattern id="small-grid" width="10" height="10" patternUnits="userSpaceOnUse">

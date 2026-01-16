@@ -2,11 +2,13 @@
 
 import { Button } from "@/components/ui/button";
 import { ArrowDown } from "lucide-react";
+import { GridBackground } from "@/components/grid-background";
 
 export function HeroSection() {
   return (
-    <section className="min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 relative z-10">
-      <div className="max-w-4xl mx-auto text-center space-y-8">
+    <section className="min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 relative">
+      <GridBackground />
+      <div className="max-w-6xl mx-auto w-full text-center space-y-8 relative z-10">
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-balance">
           Hi, I&apos;m Joshua
         </h1>
