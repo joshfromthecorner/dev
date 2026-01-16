@@ -25,7 +25,7 @@ export function GridBackground() {
             />
           </pattern>
         </defs>
-        <rect width="100%" height="100%" fill="url(#grid)" className="text-foreground/10" />
+        <rect width="100%" height="100%" fill="url(#grid)" className="text-foreground/5 dark:text-foreground/10" />
       </svg>
     </div>
   );
