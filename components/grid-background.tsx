@@ -25,13 +25,19 @@ export function GridBackground() {
             />
           </pattern>
           <linearGradient id="grid-gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="currentColor" stopOpacity="0.15" />
-            <stop offset="50%" stopColor="currentColor" stopOpacity="0.08" />
-            <stop offset="100%" stopColor="currentColor" stopOpacity="0.15" />
+            <stop offset="0%" stopColor="hsl(30, 10%, 95%)" stopOpacity="0.4" />
+            <stop offset="50%" stopColor="hsl(30, 10%, 98%)" stopOpacity="0.2" />
+            <stop offset="100%" stopColor="hsl(30, 10%, 95%)" stopOpacity="0.4" />
+          </linearGradient>
+          <linearGradient id="grid-gradient-dark" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stopColor="hsl(0, 0%, 12%)" stopOpacity="0.3" />
+            <stop offset="50%" stopColor="hsl(0, 0%, 9%)" stopOpacity="0.15" />
+            <stop offset="100%" stopColor="hsl(0, 0%, 12%)" stopOpacity="0.3" />
           </linearGradient>
         </defs>
         <rect width="100%" height="100%" fill="url(#grid)" className="text-foreground/5 dark:text-foreground/10" />
-        <rect width="100%" height="100%" fill="url(#grid-gradient)" className="text-foreground/5 dark:text-foreground/10" />
+        <rect width="100%" height="100%" fill="url(#grid-gradient)" className="dark:hidden" />
+        <rect width="100%" height="100%" fill="url(#grid-gradient-dark)" className="hidden dark:block" />
       </svg>
     </div>
   );
