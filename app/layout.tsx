@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${figtree.variable} font-sans`} style={{ fontFamily: 'var(--font-figtree), sans-serif' }}>
+      <body className={`${figtree.variable} font-sans`}>
         <ThemeProvider>
           {children}
         </ThemeProvider>
