@@ -14,9 +14,5 @@
     "components": "@/components",
     "utils": "@/lib/utils",
     "ui": "@/components/ui"
-  },
-  "registries": {
-    "default": "https://ui.shadcn.com/r",
-    "@tailark": "https://tailark.com/r/{name}.json"
   }
 }
