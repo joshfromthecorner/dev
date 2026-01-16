@@ -5,7 +5,7 @@ import { Separator } from "@/components/ui/separator";
 export function AboutSection() {
   return (
     <section id="about" className="py-32 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto w-full">
+      <div className="max-w-[800px] mx-auto w-full">
         <div className="space-y-16">
           <div>
             <h2 className="text-4xl sm:text-5xl font-bold text-balance mb-4">

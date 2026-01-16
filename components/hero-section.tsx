@@ -6,7 +6,7 @@ import { ArrowDown } from "lucide-react";
 export function HeroSection() {
   return (
     <section className="min-h-dvh flex items-center justify-center px-4 sm:px-6 lg:px-8 relative">
-      <div className="max-w-6xl mx-auto w-full text-center space-y-8 relative z-10">
+      <div className="max-w-[800px] mx-auto w-full text-center space-y-8 relative z-10">
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold text-balance">
           Hi, I&apos;m Joshua
         </h1>

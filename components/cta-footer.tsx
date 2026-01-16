@@ -7,7 +7,7 @@ import { Mail, Github, Linkedin, MapPin } from "lucide-react";
 export function CTAFooter() {
   return (
     <footer id="contact" className="py-32 px-4 sm:px-6 lg:px-8 bg-muted/30">
-      <div className="max-w-6xl mx-auto w-full">
+      <div className="max-w-[800px] mx-auto w-full">
         <div className="space-y-16">
           <div className="text-center space-y-4">
             <h2 className="text-4xl sm:text-5xl font-bold text-balance">
